@@ -196,15 +196,16 @@ section.success {
     padding-left: 80px;
 }
 .about-entry div {
-    display: block
     position: absolute;
     top: 0px;
     left: 0px;
 }
 .about-entry div i {
     font-size: 55px;
+    color: #BABABA;
 }
 .about-entry h3 {
+    color: #343434;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 800;
