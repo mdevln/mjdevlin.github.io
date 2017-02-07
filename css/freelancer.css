@@ -204,16 +204,7 @@ section.success {
     font-size: 55px;
     color: #BABABA;
 }
-.about-entry h3 {
-    color: #343434;
-    text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 800;
-}
-.about-entry p {
-    color: #727272;
-    font-size: 15px;
-}
+
 
 /*.about {
     /*
