@@ -190,7 +190,7 @@ section.success {
   color: white;
 }
 
-ul.about li {
+ul li.about {
     /*
      * We want the bullets outside of the list,
      * so the text is aligned. Now the actual bullet
