@@ -190,12 +190,6 @@ section.success {
   color: white;
 }
 
-.about-entry {
-  position: relative;
-  padding-bottom: 4px;
-  padding-left: 80px;
-}
-
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
