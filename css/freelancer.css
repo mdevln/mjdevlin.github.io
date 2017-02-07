@@ -190,6 +190,21 @@ section.success {
   color: white;
 }
 
+ul.about li {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+     */
+    list-style-position: outside;
+
+    /*
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+     */
+    margin-left: 1em;
+}
+
 @media (max-width: 767px) {
   section {
     padding: 75px 0;
