@@ -203,6 +203,9 @@ ul li.about {
      * container, indent the list entirely
      */
     margin-left: 1em;
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
 }
 
 @media (max-width: 767px) {
