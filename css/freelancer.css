@@ -69,8 +69,8 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #2C3E50;
-  color: white;
+  background: white;
+  color: #2C3E50;
 }
 header .container {
   padding-top: 100px;
