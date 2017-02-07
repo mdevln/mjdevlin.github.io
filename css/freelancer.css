@@ -190,27 +190,27 @@ section.success {
   color: white;
 }
 
-.about {
+.about-container .about-entry {
     position: relative;
     padding-bottom: 4px;
     padding-left: 80px;
 }
-.about div {
+.about-entry div {
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.about div i {
+.about-entry div i {
     font-size: 55px;
     color: #BABABA;
 }
-.about h3 {
+.about-entry h3 {
     color: #343434;
     text-transform: uppercase;
     font-size: 20px;
     font-weight: 800;
 }
-.about p {
+.about-entry p {
     color: #727272;
     font-size: 15px;
 }
