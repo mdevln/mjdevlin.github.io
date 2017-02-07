@@ -191,22 +191,46 @@ section.success {
 }
 
 .about {
-    /*
-     * We want the bullets outside of the list,
-     * so the text is aligned. Now the actual bullet
-     * is outside of the list’s container
-     */
-    list-style-position: outside;
-
-    /*
-     * Because the bullet is outside of the list’s
-     * container, indent the list entirely
-     */
-    margin-left: 1em;
     position: relative;
     padding-bottom: 4px;
     padding-left: 80px;
 }
+.about div {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.about div i {
+    font-size: 55px;
+    color: #BABABA;
+}
+.about h3 {
+    color: #343434;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 800;
+}
+.about p {
+    color: #727272;
+    font-size: 15px;
+}
+
+/*.about {
+    /*
+     * We want the bullets outside of the list,
+     * so the text is aligned. Now the actual bullet
+     * is outside of the list’s container
+    list-style-position: outside;
+
+
+     * Because the bullet is outside of the list’s
+     * container, indent the list entirely
+
+    margin-left: 1em;
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 80px;
+}*/
 
 @media (max-width: 767px) {
   section {
